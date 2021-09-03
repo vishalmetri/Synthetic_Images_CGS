@@ -22,7 +22,6 @@
 % eList{2,1} = [x2,y2]; eList{2,2} = b2; eList{2,3} = a2; eList{2,4} = theta2;
 
 
-
 function E1 = makeEllipse_angle(N,eList)
 
 s = (size(eList));
