@@ -77,7 +77,7 @@
 % Note that any other pair of circles can be easily checked by changing the
 % below dimension a1,b1,a2,b2
 
-%%%% UNCOMMENT LINES 81 TO 100 TO RUN A PAIR OF CIRCLES %%%%
+%%%% UNCOMMENT LINES 82 TO 100 TO RUN A PAIR OF CIRCLES %%%%
 %%% Circle dimensions
 % a1 = 100
 % b1 = 100
