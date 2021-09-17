@@ -35,6 +35,11 @@
 % Output: hMap -> Cell of size (numAngles,1), has map of critical hmin
 %         nMap -> Cell of size (numAngles,1), has map of initial minima at
 %         0 hmin.
+% To read in the excel files written by the code use the following:
+% Say we had b1 = 50; a1 = 100; b2 = 50; a2 = 100 and theta = 90; use
+% hMap = readmatrix('hMapf_a1_100_b1_50_a2_100_b2_50_theta_90.xlsx','Sheet','90');
+% Then display this hMap by the command:
+% imagesc(hMap), colormap(jet), colorbar, axis square, axis image
 
 function [hMap nMap] = getHmap_par(N, A, theta)
 
