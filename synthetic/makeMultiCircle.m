@@ -3,7 +3,7 @@
 %        clist -> Cell array of centres and radii
 % For example, if we need two circles at centres (x1,y1) and (x2,y2)
 % with radii r1 and r2, cList should look like: 
-% cList{1,1} = (x1,y1); cList{1,2} = r1; cList{2,1} = (x2,y2}, cList{2,2} = r2
+% cList{1,1} = (y1,x1); cList{1,2} = r1; cList{2,1} = (y2,x2}, cList{2,2} = r2
 
 function C2 = makeMultiCircle(N,cList)
 

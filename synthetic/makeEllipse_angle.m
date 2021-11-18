@@ -18,8 +18,10 @@
 % at [x1,y1] and [x2,y2], semi-major axes a1,a2,
 % semi-minor axes b1,b1 and angle of inclination of major axis with the
 % horizontal theta1,theta2, eList will be:
-% eList{1,1} = [x1,y1]; eList{1,2} = b1; eList{1,3} = a1; eList{1,4} = theta1;
-% eList{2,1} = [x2,y2]; eList{2,2} = b2; eList{2,3} = a2; eList{2,4} = theta2;
+% eList{1,1} = [y1,x1]; eList{1,2} = b1; eList{1,3} = a1; eList{1,4} = theta1;
+% eList{2,1} = [y2,x2]; eList{2,2} = b2; eList{2,3} = a2; eList{2,4} = theta2;
+% Note that the y's and x's are interchanged in the eList structure to
+% reflect the Matlab matrix indexing system.
 
 
 function E1 = makeEllipse_angle(N,eList)
